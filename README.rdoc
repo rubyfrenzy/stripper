@@ -1,0 +1,33 @@
+= Stripper
+
+An ActiveRecord plugin to strip fields of extra white space before validation.
+
+== Installation
+
+  ./script/plugin install git://github.com/rubyfrenzy/stripper.git
+
+
+== Usage
+
+Simply add this line to your models:
+
+  stripper :name
+
+  or 
+
+  stripper :name, :address, :city
+
+
+The only argument is an array of properties you wish to have stripped before
+validation.
+
+
+== Author
+
+* Stripper was created by Travis Sinnott http://travis.rubyfrenzy.com
+* Available on GitHub at http://github.com/rubyfrenzy/stripper
+
+== Liscense
+
+This plugin is licensed under the MIT License.  See LICENSE.txt for details.
+
